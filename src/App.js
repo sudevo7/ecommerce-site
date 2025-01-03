@@ -9,7 +9,7 @@ import MyOrders from './components/MyOrders';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/ecommerce-site">
       <Header />
       <Routes> 
         <Route path="/" element={<HomePage />} />
