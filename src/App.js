@@ -9,7 +9,7 @@ import MyOrders from './components/MyOrders';
 
 const App = () => {
   return (
-    <Router basename="/laptopia-ecommerce-site">
+    <Router>
       <Header />
       <Routes> 
         <Route path="/" element={<HomePage />} />
